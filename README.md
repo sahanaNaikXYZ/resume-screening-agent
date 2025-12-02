@@ -1,11 +1,11 @@
-# Resume Screening Agent (VS Code Demo)
+ Resume Screening Agent (VS Code Demo)
 
 This project is a simple AI-assisted Resume Screening Tool that extracts text from resumes, compares it with a job description (JD), and ranks resumes based on matching keywords.  
 It works in **local demo mode** without requiring an API key.
 
 ---
 
-## 🚀 Features
+ Features
 
 - Upload multiple PDF resumes  
 - Extract text from:
@@ -19,7 +19,7 @@ It works in **local demo mode** without requiring an API key.
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 - **Python**
 - **Streamlit** – UI
@@ -30,7 +30,7 @@ It works in **local demo mode** without requiring an API key.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 resume-screening-agent/
 │── app.py
@@ -45,28 +45,28 @@ Copy code
 
 ---
 
-## ▶️ How to Run the Project
+ How to Run the Project
 
-### 1️⃣ Create a Virtual Environment
+Create a Virtual Environment
 python -m venv .venv
 
 yaml
 Copy code
 
-### 2️⃣ Activate the Environment  
+ Activate the Environment  
 Windows PowerShell:
 .venv\Scripts\activate
 
 shell
 Copy code
 
-### 3️⃣ Install Dependencies
+ Install Dependencies
 pip install -r requirements.txt
 
 bash
 Copy code
 
-### 4️⃣ Install Tesseract OCR (Required for scanned PDFs)
+Install Tesseract OCR (Required for scanned PDFs)
 Download Windows installer:  
 https://github.com/UB-Mannheim/tesseract/wiki
 
@@ -77,7 +77,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 shell
 Copy code
 
-### 5️⃣ Run the App
+ Run the App
 streamlit run app.py
 
 yaml
@@ -85,7 +85,7 @@ Copy code
 
 ---
 
-## 🧠 How Resume Scoring Works
+ How Resume Scoring Works
 
 1. Extract text from resume  
 2. Clean and convert to lowercase  
@@ -96,7 +96,7 @@ Copy code
 
 ---
 
-## 📌 Future Enhancements
+ Future Enhancements
 
 - Use OpenAI embeddings for smart semantic matching  
 - Add multiple JD comparison  
@@ -105,7 +105,6 @@ Copy code
 
 ---
 
-## 🙋‍♀️ Author
 
-**Sahana Naik**  
+Sahana Naik 
 Resume Screening Agent – Demo Version  
